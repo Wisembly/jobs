@@ -1,6 +1,6 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+    font-family: Cabin, 'Lucida Grande', Verdana, sans-serif; background-color: #f1f1f1;
 }
 
 .container > footer p {
