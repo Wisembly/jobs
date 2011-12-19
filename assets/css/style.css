@@ -27,18 +27,14 @@ html, body {
 /* Page header tweaks */
 .page-header {
   background-color: #f5f5f5;
-  padding: 20px 20px 10px;
-  margin: -20px -20px 20px;
+  padding: 10px 10px 10px;
+  margin: -20px -20px 0px;
+  height: 40px;
 }
 
 .balloon-logo {
-    background-color: #f5f5f5;
-    text-align:right;
-    padding: 20px 20px 0px;
-    margin: -20px -20px 0px;
-    border-radius: 0 0 6px 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
+    float:right;
+    margin: 10px 10px 0 0;
 }
 
 /* Styles you shouldn't keep as they are for displaying this base example only */
@@ -46,11 +42,11 @@ html, body {
 .content .span4 {
   min-height: 500px;
 }
+
 /* Give a quick and non-cross-browser friendly divider */
 .content .span4 {
   margin-left: 0;
   padding-left: 19px;
-  border-left: 1px solid #eee;
 }
 
 .topbar .btn {
@@ -65,10 +61,29 @@ h2 {
 h1 small {
     font-size:24px;
     font-style:italic;
+    color: #484848;
+    border-left: 1px solid #c8c8c8;
+    padding-left: 10px;
+    margin-left: 5px;
 }
 
 #forkme {
     position:absolute;
     top:0;
     left:0;
+}
+
+ul.important li {
+    color: black;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+ul.important li:last {
+    padding-bottom: 0;
+}
+
+.main {
+    padding-right: 19px;
+    border-right: 1px solid #eee;
 }
