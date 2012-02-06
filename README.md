@@ -1,3 +1,3 @@
-OFFRE LEAD DEV BALLOON
+## Pages des offres techniques Balloon
 
-Si tu lis ce readme, c'est bien, tu peux le signaler dans ton email si tu postules ;)
+# contact mail: guillaume@balloonup.com ou via github messages: @guillaumepotier
