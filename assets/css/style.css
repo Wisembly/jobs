@@ -87,3 +87,23 @@ ul.important li:last {
     padding-right: 19px;
     border-right: 1px solid #eee;
 }
+
+.balloon-jobs p {
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+            box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.header-picture {
+    width: 700px;
+    padding-top: 15px;
+}
